@@ -69,7 +69,6 @@ const Home = () => {
             label="Shows"
             id="shows-search"
             value="shows"
-            type="text"
             checked={isShowsSearch}
             onChange={onRadioChange}
           />
@@ -80,7 +79,6 @@ const Home = () => {
             label="Actors"
             id="actors-search"
             value="people"
-            type="text"
             checked={!isShowsSearch}
             onChange={onRadioChange}
           />
